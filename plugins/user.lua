@@ -12,5 +12,9 @@ return {
         -- Configuration here, or leave empty to use defaults
       })
     end
+  },
+  {
+    "AstroNvim/astrocommunity",
+    { import = "astrocommunity.pack.rust" }
   }
 }
